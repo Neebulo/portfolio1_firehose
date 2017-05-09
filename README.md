@@ -15,10 +15,11 @@ This is for TheFireHoseProject.com intro Portfolio.
 * HTML | CSS
 
 ##### WIREFRAME
-| Page View                                       |
-|-------------------------------------------------|
-| ![portfolio_view](https://tinyurl.com/n4gtql8)  |
-|                                                 |
+| Page View                                                               |
+|-------------------------------------------------------------------------|
+|<img width="1416" alt="portfolio_view" src="https://tinyurl.com/n4gtql8">|
+|                                                                         |
+|                                                                         |
 
 ----
 
