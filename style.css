@@ -4,7 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Noto Sans', sans-serif;   /* first specifies primary, specify backup*/
+  font-family: 'Cabin', sans-serif;   /* first specifies primary, specify backup*/
 }
 
 h1 {
@@ -21,8 +21,8 @@ h2 {
 }
 
 .bio {
-  color    : #1b0447;
-  font-size: 14px;
+  color    : #6413b5;
+  font-size: 20px;
 }
 
 .cris {

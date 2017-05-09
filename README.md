@@ -17,7 +17,7 @@ This is for TheFireHoseProject.com intro Portfolio.
 ##### WIREFRAME
 | Page View                                       |
 |-------------------------------------------------|
-| ![portfolio_view](http://gph.to/25q2v0d)        |
+| ![portfolio_view](https://tinyurl.com/n4gtql8)  |
 |                                                 |
 
 ----
