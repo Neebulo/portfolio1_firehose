@@ -1,6 +1,6 @@
 body {
-
   font-family: 'Cabin', sans-serif;   /* first specifies primary, specify backup*/
+  margin: 0;
 }
 
 h1 {
