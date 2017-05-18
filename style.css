@@ -1,9 +1,5 @@
 body {
-  background: url('images/more_caffeine.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
   font-family: 'Cabin', sans-serif;   /* first specifies primary, specify backup*/
 }
 
@@ -37,6 +33,13 @@ h2 {
   margin-top      : 40px;
 }
 
+.about-container{
+  background: url('images/more_caffeine.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .about {
   width: 400px;
   margin-left: auto;
