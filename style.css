@@ -39,6 +39,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 600px;
 }
 .about {
   width: 400px;
