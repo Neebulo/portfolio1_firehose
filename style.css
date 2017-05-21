@@ -23,6 +23,11 @@ h3 {
   margin-top: 100px;
 }
 
+.yellow {
+  border-top: 5px double #F5A623;
+  width: 250px;
+}
+
 .bio {
   color    : #6413b5;
   font-size: 20px;
