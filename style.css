@@ -16,6 +16,10 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  text-align: center;
+}
+
 .bio {
   color    : #6413b5;
   font-size: 20px;
