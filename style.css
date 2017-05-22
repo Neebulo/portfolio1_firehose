@@ -92,3 +92,9 @@ p {
   border: none;
   width: 50px;
 }
+
+.skills-and-tools {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
