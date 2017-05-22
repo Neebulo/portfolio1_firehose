@@ -30,6 +30,8 @@ h3 {
 .yellow {
   border-top: 5px double #F5A623;
   width: 250px;
+  border-bottom: none;
+  border-right: none;
 }
 
 .box {
