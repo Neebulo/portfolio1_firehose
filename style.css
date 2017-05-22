@@ -96,5 +96,8 @@ p {
 .skills-and-tools {
   max-width: 400px;
   margin: 40px auto;
+}
 
+.icons {
+  text-align: center;
 }
