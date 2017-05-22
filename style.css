@@ -87,6 +87,11 @@ p {
   text-align: center;
 
 }
+.backlight {
+  background-color: rgba(231, 161, 34, 0.5);
+  border-radius   : 100%;
+  object-fit      : cover;
+}
 
 .grey {
   height: 3px;
