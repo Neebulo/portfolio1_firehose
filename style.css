@@ -117,3 +117,8 @@ p {
 .contact-headline {
   color: white;
 }
+
+.contact-info {
+  color: white;
+  font-size: 13px;
+}
