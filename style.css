@@ -134,3 +134,8 @@ p {
   font-weight: bold;
   font-size: 13px;
 }
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
