@@ -86,11 +86,31 @@ puts &quot;#{F_to_Celsius(input)}&quot;</code></pre>
 
 <div class="box">
   <pre><code class="language-ruby">n = 0
-  while n &lt; 10
-    puts &quot;Hello, #{n}&quot;
-    n = n + 1
+    puts &quot;enter a number&quot;
+
+  value = gets.to_i
+
+  def suffix(value)
+
+  lop2 = (value) % 100
+  lop  = (value) % 10
+
+   if lop2 == 11 || lop2 ==12 || lop2 == 13
+    return &quot;th&quot;
+   elsif lop == 1
+    return &quot;st&quot;
+   elsif lop == 2
+    return &quot;nd&quot;
+   elsif lop == 3
+    return &quot;rd&quot;
+   else
+    return &quot;th&quot;
+
+   end
+
   end
-  puts &quot;Goodbye&quot;</code></pre>
+
+  puts &quot;That's the #{value}#{suffix(value)} position&quot;</code></pre>
 </div>
 
 <div class="box">
