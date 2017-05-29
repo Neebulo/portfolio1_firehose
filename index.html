@@ -135,11 +135,29 @@ puts &quot;#{F_to_Celsius(input)}&quot;</code></pre>
 
 <div class="box">
   <pre><code class="language-ruby">n = 0
-    while n &lt; 10
-      puts &quot;Hello, #{n}&quot;
-      n = n + 1
-    end
-    puts &quot;Goodbye&quot;</code></pre>
+    puts &quot;How many times?&quot;
+limit = gets.to_i
+
+def foobar(limit)
+
+list = []
+
+ (1..limit).each do |n|
+     if n % 3 == 0 &amp;&amp; n % 5 == 0
+         list &lt;&lt; &quot;FOOBAR&quot;
+         elsif n % 3 == 0
+         list &lt;&lt; &quot;FOO&quot;
+         elsif n % 5 == 0
+         list &lt;&lt; &quot;BAR&quot;
+     else
+         list &lt;&lt; n
+     end           #  &lt;&lt;&lt;if/else end&gt;&gt;&gt;
+ end               #  &lt;&lt;&lt;.each do |n|end &gt;&gt;&gt;
+puts &quot;#{list}&quot;     # what should output as the result
+end                #  &lt;&lt;&lt; method end &gt;&gt;&gt;
+
+# Calling
+foobar(limit)</code></pre>
 </div>
 
 <br class="clear" />
