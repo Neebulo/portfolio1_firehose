@@ -10,8 +10,7 @@
       media="screen"
     />
 
-  <script type="text/javascript" src="prism/prism.js"></script>
-  <script type="text/javascript" src="prism/prism.ruby.js"></script>
+  <script type="text/javascript" src="prism/prism2.js"></script>
   <title>Cristalin Solis</title>
   <meta name="description" content="Cristalin Solis is a military veteran
         that is now in web development. He specializes in a multitude of
@@ -58,11 +57,29 @@
     </div>
     <div class="box">
 <pre><code class="language-ruby">n = 0
-while n &lt; 10
-  puts &quot;Hello, #{n}&quot;
-  n = n + 1
+
+# Display
+puts &quot;Enter the Celcius degrees you would like to convert to Fahrenheit:&quot;
+
+# store
+input = gets.chomp
+
+# Method
+def F_to_Celsius(input)
+
+ val1 = &quot;#{input}&quot;.to_f
+
+# Convert
+ val2 = (val1 * 1.8) + 32
+
+ puts &quot;#{input} Celcius is converting to Fahrenheit&quot;
+ conversion = &quot;#{val2} Fahrenheit total result&quot;
+ return conversion
+
 end
-puts &quot;Goodbye&quot;</code></pre>
+
+# Display results
+puts &quot;#{F_to_Celsius(input)}&quot;</code></pre>
     </div>
 
 <br class="clear" />
